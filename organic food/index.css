@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Rosario:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+:root{
+    --white: #FFFFFF;
+    --tx-grey: #999999;
+    --tx-55: #555555;
+    --black: #000000;
+    --background-grey:#C9C9C9 ;
+    --korstakich:  #09A66D;
+    --chocalte: #333333;
+    --background-black: #222222;
+    --blue: #F3FBF8;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+    
+}
+body{
+    background-color: var(--blue);
+}
+.round{
+    border-radius: 50%;
+}
+h1{
+    font-size: 70px;
+    line-height: 90px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+h2{
+    font-size: 48px;
+    line-height: 48px;
+}
+h3{
+    font-size: 30px;
+   line-height: 36px;
+}
+h4{
+    font-size: 24px;
+   line-height: 31px;
+}
+.contanier{
+    width: 86%;
+    margin: 0 auto;
+}
+p{
+    font-size: 20px;
+    line-height: 30px;
+}
+a{
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+header nav{
+    background-color: var(--blue);
+}
+.big__navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-between  ;
+    width: 374px;
+}
+.navbar {
+    padding: 66px 0 59px 0;
+
+}
+.navbar a{
+color: var(--background-black);
+}
+.earth{
+    /* margin-right: 648px; */
+    display: flex;
+    padding: 0 82px 0 0 ;
+}
+.planet-earth{
+    padding: 0 82px 0 0 ;
+}
+.search{
+    width: 20px;
+    height: 20px;
+}
+.navbar-img{
+    display: flex;
+}
+.search{
+    margin-right: 20px;
+}
+.shop{
+    display: flex;
+    align-items: center;
+    width: 292pxw;
+}
+.navbar-btn{
+    width: 160px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--korstakich);
+    padding: 10px;
+    color: var(--white);
+    margin-left: 32px;
+}
+.header{
+    /* background-color: var(--blue); */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header-text{
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 93px 20%;
+}
+.yaproq-img{
+    z-index: 2;  
+    position: absolute;
+    left: 20px;
+    top: 111.97px;
+
+}
+.header-p{
+    color: var(--tx-55);
+    text-align: center;
+    padding: 0 100px;
+}
+.nav-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dumaloq{
+    border-radius: 50%;
+    background-color: var(--korstakich);
+    width: 64px;
+    height: 64px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 0 20px;
+}
+.sabzavot{
+    display: flex;  
+
+}
+.footer-img-div{
+    width: 862px;
+    height: 465px;
+}
+.nav-footer__a{
+    color: var(--background-black);
+}
+.vegetables-img{
+    background-color: var(--background-grey);
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.baholash{
+    background-color: var(--white);
+    width: 250px;
+    height: 116px;
+    /* align-self: flex-end;
+    align-items: flex-end;
+    display: flex; */
+    margin: 20px 0 0 107px;
+}
+.baholash__2{
+    background-color: var(--white); 
+    margin: 0 0 30px 0;
+}
+.footer-img-div{
+    display: flex;
+}
+.kontakt{
+    width: 56px;
+    height: 56px;
+}
+.img-text{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0 0 0;
+}
+.footer-p{
+    margin-left: 113px;
+}
+.div__p{
+    margin: 0 0 0 110px;
+}
+.yulduz{
+    width: 56px;
+    height: 56px;
+}
+.buyurtma__p{
+    padding: 20px 0 0 0;
+    width: 700px;
+}
+.yetkaziberish{
+    padding: 56px 0 0 0 ;
+    align-items: center ;
+    display: flex;
+    width: 50%;
+}
+.yetkziberish__p{
+    margin: 0 0 0 24px;
+}
+.yetkaziberish__p2{
+    font-size: 14px;
+    color: var(--tx-55);
+    width: 300px;
+    margin: 0 0 0 24px;
+}
+.div__menu{
+    display: flex;
+    align-items: center;
+    padding: 50px 0 0 0;
+    background-color: var(--blue);
+}
+.div__vaqt{
+    display: flex;
+    align-items: center;
+    padding: 50px 0 0 0;
+}
+.section__div{
+    display: flex;
+}
+.section__img{
+    width: 50%;
+}
+.tashuvchi{
+    margin: 0 0 0 113px;
+}
+.href{
+    width: 50%;
+}
+section{
+    padding: 140px 0;
+}
+.icon{
+    font-size: 60px;
+    color: var(--korstakich);
+}
+.div__icon{
+    width: 100%;
+    text-align: center;
+    padding: 51px 0 0 0;
+}
+.section__p{
+    width: 650px;
+}
+.section_vegatbles{
+    position: relative;
+}
+.big__section{
+    display: flex;
+}
+.texts{
+    margin: 0 0 0 50px;
+}
+.section__strelka{
+    display: flex;
+    align-items: center;
+    padding: 50px 0 0 0;
+}
+.div__yaproq{
+    position: absolute;
+   right: -100px;
+   top: 400px;
+}
+.soqoli-odam_big__div{
+    display: flex;
+}
+.soqoli-odam__p{
+    width: 650px;
+    padding: 30px 0 0 0;
+}
+.soqoli-odam__h1{
+    width: 800px;
+}
+.soqoli-odam__h3{
+    padding: 40px 0 0 0 ;
+}
+.soqoli-odam_div{
+    position: relative;
+}
+.soqoli-odam__img{
+    padding: 20px 0 0 0;
+    z-index: 1;
+}
+.odamlar-img{
+    position: absolute;
+    right: 200px;
+    top: 360px;
+}
+.section__text{
+    margin: 0 0 0 112px;
+}
+.downlaod{
+    display: flex;
+}
+.section__a{
+    background-color: darkgray;
+    border-radius: 50px;
+    padding: 10px;
+    color: var(--chocalte);
+}
+.section-text_h1{
+    width: 800px;
+    padding: 16px 0 0 0;
+}
+.section-text_p{
+    width: 650px;
+    padding: 20px 0 0 0 ;
+    color: var(--tx-55);
+}
+.yuklab_olish{
+    padding: 50px 0  0 0 ;
+    /* display: flex; */
+}
+.footer__div{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__p{
+    width: 400px;
+    padding: 29px 0 0 0;
+    color: var(--tx-55);
+}
+.nav__home a{
+    display: block;
+    color: var(--tx-55);
+    padding: 24px 0 0 0 ;
+}
+.yangiliklar a{
+    display: block;
+    color: var(--tx-55);
+    padding: 24px 0 0 0;
+}
+.aloqa p {
+    padding: 40px 0 0 0;
+}
+.aloqa img{
+    padding: 27px 50px 0 0 ;
+}
